@@ -1,0 +1,32 @@
+.newsletter-pop-up {
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  background-color: #3fced8;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 15px 15px #3d3d3d;
+  transform: translateY(30px);
+  opacity: 0;
+  visibility: hidden;
+  animation: fade-in 25s linear forwards;
+}
+
+@keyframes fade-in {
+    5%{
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+    90%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.form-control{
+    float: left;
+    margin-bottom: 1rem;
+}
+.btn-danger{
+    float: right;
+}

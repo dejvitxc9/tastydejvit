@@ -1,0 +1,18 @@
+.small-card {
+  background-color: #f0f8ff;
+  padding: 5px 15px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: black;
+}
+.small-card:hover {
+  box-shadow: 5px 5px red ;
+}
+.small-photo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 13rem;
+    text-overflow: clip;
+    float: right;
+    border-radius: 15px 5px 5px 15px;
+}

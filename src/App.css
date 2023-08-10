@@ -1,0 +1,72 @@
+.App {
+  transition: 0.3s ease-in-out;
+  .home {
+    box-shadow: 12px 12px 2px 1px #8ef;
+  }
+  .cakes {
+    box-shadow: 12px 12px 2px 1px #ccf;
+  }
+  .vegan-food {
+    box-shadow: 12px 12px 2px 1px #9cff5b;
+  }
+  .mexican-food {
+    box-shadow: 12px 12px 2px 1px #fa0;
+  }
+  .chinese-food {
+    box-shadow: 12px 12px 2px 1px #ff5a5a;
+  }
+  .cocktails {
+    box-shadow: 12px 12px 2px 1px #42ff97;
+  }
+  .cardhome:hover {
+    box-shadow: 12px 12px 2px 1px #8ef;
+  }
+  .cardcakes:hover {
+    box-shadow: 12px 12px 2px 1px #ccf;
+  }
+  .cardvegan-food:hover {
+    box-shadow: 12px 12px 2px 1px #9cff5b;
+  }
+  .cardmexican-food:hover {
+    box-shadow: 12px 12px 2px 1px #fa0;
+  }
+  .cardchinese-food:hover {
+    box-shadow: 12px 12px 2px 1px #ff5a5a;
+  }
+  .cardcocktails:hover {
+    box-shadow: 12px 12px 2px 1px #42ff97;
+  }
+
+  .diff-easy {
+    color: #19b860;
+  }
+  .diff-medium {
+    color: #fa0;
+  }
+  .diff-challange {
+    color: #ff5a5a;
+  }
+}
+
+.link {
+  text-decoration: none;
+}
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #ccccff #ffffff;
+}
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #ccccff;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+* {
+  transition: 0.3s ease-in-out;
+}
